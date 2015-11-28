@@ -2,12 +2,16 @@
 <html>
     <body>
         <script type="text/javascript">
+            var x = 1;
             function my_function() {
                 //alert("hola!");
                 return "hola!"; //The return addresses the issue of seeing undefined in the browser console.
             }
             function add (a, b) {
                 return a + b;
+            }
+            function scope_test() {
+                return x;
             }
         </script>
     </body>
