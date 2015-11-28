@@ -11,6 +11,8 @@
                 return a + b;
             }
             function scope_test() {
+                x = x + 1; // this increments the value of var = x
+                // if a new var x = statement was added here scope_test would no longer see the original (global) var x =.
                 return x;
             }
         </script>
