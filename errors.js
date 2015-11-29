@@ -22,6 +22,8 @@
         } catch (err) {
             alert('Error: ' + err);
         //could also add finally - which will 'always' execute regardless
+        //this is really unnecessary and mostly annoying, other than providing
+        //about follow through execution.
     } finally {
         alert('finally');
     }
