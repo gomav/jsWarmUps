@@ -8,7 +8,7 @@ var bankAccount = { owner: "Manny",
                         this.balance += amount;
                     }
 }
-//Creating a constructor in order to create more accounts
+//Creating a constructor in order to create additional accounts as necessary
 function BankAccount(owner, type) {
     this.owner = owner;
     this.type = type;
